@@ -2,45 +2,58 @@
     padding: 0px;
     margin: 0px;
 }
-body{
-    background-color: lightskyblue;
+
+body {
+    background-color: gray;
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    background-color: tomato;
+    background-color: teal;
+    margin: 15px;
 }
-
+ 
 .logo {
-    height: 50px;
-    width: 150px;
-    background-color: yellowgreen;
+    height: 100px;
+    width: 200px;
+    margin: 6px;
+    background-color: gray;
 }
-
 .menu {
-    height: 50px;
+    height: 100px;
     flex-grow: 1;
-    background-color: lightgrey;
+    margin: 6px;
+    background-color: gray;
 }
-
-.search {
-    height: 50px;
-    width: 150px;
-    background-color: yellowgreen;
+.welcome {
+    height: 300px;
+    width: 500px;
+    margin: 20px;
+    background-color: gray;
 }
 
 .banner {
-    background-color: mediumorchid;
+    height: 300px;
+    flex-grow: 1;
+    margin: 20px;
+    background-color:tomato;
+}
+.service {
+    height: 400px;
+    flex-grow: 1;
+    margin: 20px;
+    background-color: gray;
+}
+img {
+    height: 300px;
+    width: 100%;
+}
+.footer {
     height: 150px;
     flex-grow: 1;
+    margin: 20px;
+    background-color: gray;
+    text-align: center;
 }
-
-.service-box {
-    height: 250px;
-    width: 250px;
-    padding: 6px;
-    background-color: midnightblue;
-}
-
 
